@@ -1,6 +1,6 @@
 // Used Cypress Framework - in Javascript language to run the script
 //const cypress= require(cypress);
-
+import 'cypress-xpath';
 describe('Tendale Store', () => {
     beforeEach(() => {
       // Visit the online store homepage before each test
