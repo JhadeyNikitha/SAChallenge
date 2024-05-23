@@ -4,7 +4,7 @@
 describe('Tendale Store', () => {
     beforeEach(() => {
       // Visit the online store homepage before each test
-      cy.visit('https://www.tendable.com');
+      cy.visit(cypress.env.URL);
     })
 
     it('Display the top-level menus:', () => {
